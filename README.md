@@ -10,7 +10,7 @@ Salvare le coordinate (latitudine e longitudine) e il tipo di evento
 
 Visualizzare ogni evento con un marker e un popup descrittivo
 
-# Tecnologie utilizzate
+## Tecnologie utilizzate
 
 -JavaScript
 
@@ -22,7 +22,7 @@ Visualizzare ogni evento con un marker e un popup descrittivo
 
 -CSS (stili)
 
-# Requisiti
+## Requisiti
 
 Node.js installato
 
@@ -30,14 +30,14 @@ PocketBase avviato in locale
 
 Un browser moderno
 
-# Avvio del progetto
-# Avvia PocketBase
+## Avvio del progetto
+ Avvia PocketBase
 
 Assicurarsi che PocketBase sia in esecuzione su:
 
 http://127.0.0.1:8090
 
-# Collezione PocketBase
+## Collezione PocketBase
 
 Crea una collezione chiamata compito con i seguenti campi:
 
