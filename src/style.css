@@ -1,0 +1,21 @@
+#map { height: 1000px; }
+/* Popup rosso per incidente */
+.leaflet-popup-content-wrapper.incidente {
+    background-color: #ffcccc; /* sfondo rosa-rosso chiaro */
+    border: 2px solid red;     /* bordo rosso */
+}
+
+.leaflet-popup-content-wrapper.incendio {
+    background-color: #ffe5cc;
+    border: 2px solid orange;
+}
+
+.leaflet-popup-content-wrapper.allagamento {
+    background-color: #cce5ff;
+    border: 2px solid blue;
+}
+
+.leaflet-popup-content-wrapper.lavori {
+    background-color: #ffffcc;
+    border: 2px solid gold;
+}
