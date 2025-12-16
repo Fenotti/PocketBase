@@ -52,8 +52,8 @@ Struttura del campo punto:
   "lon": number
 }
 
-# Funzionamento
-# Visualizzazione eventi
+## Funzionamento
+## Visualizzazione eventi
 
 All’avvio:
 
@@ -63,7 +63,7 @@ Ogni evento viene mostrato come marker sulla mappa
 
 Il popup del marker mostra il tipo di evento
 
-# Inserimento di un evento
+## Inserimento di un evento
 
 Cliccando sulla mappa viene aggiunto un marker
 
@@ -81,7 +81,7 @@ lavori
 
 I dati vengono salvati su PocketBase
 
-# Logica principale
+## Logica principale
 Inserimento dati
 inserisciDati(lat, lon, tipo);
 
@@ -91,13 +91,13 @@ pb.collection("compito").getFullList();
 Evento click sulla mappa
 map.on("click", onMapClick);
 
-📍 Posizione iniziale mappa
+## Posizione iniziale mappa
 
 La mappa è centrata inizialmente su Milano:
 
 L.map("map").setView([45.4613, 9.1595], 13);
 
-⚠️ Note
+ Note
 
 I tipi di evento sono case-sensitive
 
@@ -105,19 +105,7 @@ Non è presente autenticazione
 
 I marker vengono ricaricati ad ogni refresh della pagina
 
-✨ Possibili miglioramenti
 
-Sostituire prompt() con un form HTML
-
-Icone diverse per ogni tipo di evento
-
-Eliminazione o modifica degli eventi
-
-Autenticazione utenti
-
-Aggiornamento marker in tempo reale
-
-👨‍💻 Autore
 
 Progetto realizzato per esercitazione didattica su:
 mappe interattive + database backend
