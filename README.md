@@ -10,19 +10,19 @@ Salvare le coordinate (latitudine e longitudine) e il tipo di evento
 
 Visualizzare ogni evento con un marker e un popup descrittivo
 
-🧰 Tecnologie utilizzate
+# Tecnologie utilizzate
 
-JavaScript
+-JavaScript
 
-Leaflet.js (mappe)
+-Leaflet.js (mappe)
 
-PocketBase (backend / database)
+-PocketBase (backend / database)
 
-OpenStreetMap (tile della mappa)
+-OpenStreetMap (tile della mappa)
 
-CSS (stili)
+-CSS (stili)
 
-📦 Requisiti
+# Requisiti
 
 Node.js installato
 
@@ -30,14 +30,14 @@ PocketBase avviato in locale
 
 Un browser moderno
 
-🚀 Avvio del progetto
-1️⃣ Avvia PocketBase
+# Avvio del progetto
+# Avvia PocketBase
 
-Assicurati che PocketBase sia in esecuzione su:
+Assicurarsi che PocketBase sia in esecuzione su:
 
 http://127.0.0.1:8090
 
-2️⃣ Collezione PocketBase
+# Collezione PocketBase
 
 Crea una collezione chiamata compito con i seguenti campi:
 
@@ -52,8 +52,8 @@ Struttura del campo punto:
   "lon": number
 }
 
-🗺️ Funzionamento
-📌 Visualizzazione eventi
+# Funzionamento
+# Visualizzazione eventi
 
 All’avvio:
 
@@ -63,7 +63,7 @@ Ogni evento viene mostrato come marker sulla mappa
 
 Il popup del marker mostra il tipo di evento
 
-🖱️ Inserimento di un evento
+# Inserimento di un evento
 
 Cliccando sulla mappa viene aggiunto un marker
 
