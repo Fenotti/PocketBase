@@ -81,11 +81,11 @@ lavori
 
 I dati vengono salvati su PocketBase
 
-🧠 Logica principale
+# Logica principale
 Inserimento dati
 inserisciDati(lat, lon, tipo);
 
-Lettura dati
+## Lettura dati
 pb.collection("compito").getFullList();
 
 Evento click sulla mappa
